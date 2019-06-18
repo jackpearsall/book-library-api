@@ -24,10 +24,6 @@ npm install
 npm start
 ```
 
-### Visit `localhost:8080` in your browser.
-
-You should see the weather app.
-
 ### Created Using:
 
 Express

@@ -8,7 +8,7 @@ exports.addUser = (req, res) => {
     password: req.body.password,
   });
 
-  user.save().then(() => {
-    res.status(201).json(user);
+  user.save().then((data) => {
+    res.status(201).json(user.sanitise(data));
   });
 };

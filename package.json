@@ -19,7 +19,7 @@
   "homepage": "https://github.com/jackpearsall/book-library-api#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "mongoose": "^5.6.0"
+    "mongoose": "^5.7.5"
   },
   "devDependencies": {
     "chai": "^4.2.0",
